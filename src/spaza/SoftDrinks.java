@@ -1,12 +1,8 @@
 package spaza;
 
-public class SoftDrinks {
-    public int SoftDrinks = 0;
-    public int SaltySnakes =0;
-    public int Chocolate = 0;
+public class SoftDrinks extends Product {
 
-//    public SoftDrinks(String Pr){
-//        Product = ProductName;
-//
-//    }
+    public SoftDrinks(String description, String name){
+        super(description, name);
+    }
 }

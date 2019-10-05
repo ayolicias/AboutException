@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fea71cc-4717-452d-89c8-aa3d58d3e724" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="1fea71cc-4717-452d-89c8-aa3d58d3e724" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/ChocolatesAllGone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/SaltyCracksAllEatenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/SoftDrinksOutOfStockException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaza/Chocolates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaza/Chocolates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaza/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaza/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaza/SaltySnakes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaza/SaltySnakes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaza/SoftDrinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaza/SoftDrinks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaza/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaza/VendingMachine.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +25,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ReFXxdfxsR0UZMjlHRy7qC1Rxc" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -68,5 +89,47 @@
       <updated>1570019697828</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="423" y="65" width="576" height="663" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1570283979273">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="423" y="65" width="576" height="663" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/67.27.1299.741@67.27.1299.741" timestamp="1570283979273" />
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom" timestamp="1570284315570">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1570284315570" />
+    <state width="1253" height="175" key="GridCell.Tab.0.center" timestamp="1570284315569">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1570284315569" />
+    <state width="1253" height="175" key="GridCell.Tab.0.left" timestamp="1570284315568">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1570284315568" />
+    <state width="1253" height="175" key="GridCell.Tab.0.right" timestamp="1570284315569">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="175" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1570284315569" />
+    <state width="1253" height="219" key="GridCell.Tab.1.bottom" timestamp="1570283398271">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1570283398271" />
+    <state width="1253" height="219" key="GridCell.Tab.1.center" timestamp="1570283398270">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1570283398270" />
+    <state width="1253" height="219" key="GridCell.Tab.1.left" timestamp="1570283398269">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1570283398269" />
+    <state width="1253" height="219" key="GridCell.Tab.1.right" timestamp="1570283398270">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1570283398270" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1570272774401">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1570272774401" />
   </component>
 </project>
