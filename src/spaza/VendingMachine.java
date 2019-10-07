@@ -1,77 +1,101 @@
 package spaza;
 
+import exceptions.ProductNotFoundException;
 import exceptions.SoftDrinksOutOfStockException;
 import exceptions.SaltyCracksAllEatenException;
 import exceptions.ChocolatesAllGone;
 
 public class VendingMachine {
-    public static int newStock = 0;
-    public static int count = 0;
-    public int SoftDrinks = 0;
-    public static int SaltySnakes = 0;
-    public int Chocolates = 0;
+    public  int countStock = 0;
+    public  int softDrinks = 0;
+    public  int saltySnakes = 0;
+    public  int chocolates = 0;
 
     private String Product;
 
    public static void main(String[] args){
-       Product drinks = new SoftDrinks("coke", "sprite");
-       addStock(drinks, 0);
-       System.out.println(getCount());
 
-    }
+       Product drinks = new SoftDrinks();
+       VendingMachine vendingMachine = new VendingMachine();
+       try{
+           vendingMachine.addStock(drinks,2);
+           vendingMachine.buy(drinks);
 
-    public void buy(Product product) throws SoftDrinksOutOfStockException, SaltyCracksAllEatenException, ChocolatesAllGone {
-       if (product instanceof Product){
-               if (SoftDrinks >= 0){
-                   SoftDrinks --;
+       }
+       catch (SoftDrinksOutOfStockException e){
+           System.out.println("drinks not found");
+
+       } catch (ProductNotFoundException e) {
+           e.printStackTrace();
+       }
+   }
+
+    public void buy(Product product) throws ProductNotFoundException {
+       if (product instanceof SoftDrinks){
+               if (softDrinks <= 0){
+                   throw new SoftDrinksOutOfStockException(product);
                }
                else {
-                   throw new SoftDrinksOutOfStockException(product);
+                   softDrinks --;
+                   countStock --;
+//                   System.out.println("bought 1 SoftDrink");
                }
            }
 
-       if (product instanceof Product){
-           if (SaltySnakes>= 0){
-               SaltySnakes --;
+       if (product instanceof SaltySnakes){
+           if (saltySnakes <= 0){
+               throw new SaltyCracksAllEatenException(product);
+
            }
 
            else {
-               throw new SaltyCracksAllEatenException(product);
+               saltySnakes --;
+               countStock --;
            }
        }
 
-       if (product instanceof Product){
-           if (Chocolates>= 0){
-               Chocolates --;
-           }
-
-           else{
+       if (product instanceof Chocolates){
+           if (chocolates <= 0){
                throw new ChocolatesAllGone(product);
            }
+           else{
+               chocolates --;
+               countStock --;
+
+           }
        }
 
        }
 
-
-    public static void addStock(Product product, int newStock){
+    public  void addStock(Product product, int newStock){
        if (product instanceof SoftDrinks){
-           count += newStock;
+           softDrinks += newStock;
+           countStock += newStock;
+
+           System.out.println(softDrinks);
+           System.out.println(newStock);
        }
        if (product instanceof SaltySnakes){
-           count += SaltySnakes;
+           saltySnakes += newStock;
+           countStock += newStock;
        }
        if (product instanceof Chocolates){
-           count += newStock;
+           chocolates += newStock;
+           countStock += newStock;
        }
-       count += newStock;
-    }
-    public String getStock(){
-
-        return getStock();
     }
 
-    public static int getCount(){
-        return getCount();
+    public int getNewStock(){
+        return countStock;
+    }
+    public int getNewStock(Product product){
+     if (product instanceof SoftDrinks){
+         return softDrinks;
+     }
+     if (product instanceof SaltySnakes){
+         return saltySnakes;
+     }
+     return chocolates;
     }
 
     }

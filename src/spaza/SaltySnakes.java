@@ -2,9 +2,8 @@ package spaza;
 
 public class SaltySnakes extends Product {
 
-    public SaltySnakes(String description, String name){
+    public SaltySnakes(){
 
-        super(description, name);
     }
 
 }

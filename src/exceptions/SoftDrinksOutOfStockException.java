@@ -2,8 +2,8 @@ package exceptions;
 
 import spaza.Product;
 
-public class SoftDrinksOutOfStockException extends Throwable {
+public class SoftDrinksOutOfStockException extends ProductNotFoundException {
     public SoftDrinksOutOfStockException(Product product){
-        super(String.valueOf(product));
+
     }
 }

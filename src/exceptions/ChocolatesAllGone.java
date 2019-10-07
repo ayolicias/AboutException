@@ -2,9 +2,9 @@ package exceptions;
 
 import spaza.Product;
 
-public class ChocolatesAllGone extends Throwable {
-    public ChocolatesAllGone(Product product){
-        super(String.valueOf(product));
+public class ChocolatesAllGone extends ProductNotFoundException {
+    public ChocolatesAllGone(Product product) {
+
     }
 
 }

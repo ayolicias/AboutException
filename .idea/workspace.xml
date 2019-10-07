@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fea71cc-4717-452d-89c8-aa3d58d3e724" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/ChocolatesAllGone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/SaltyCracksAllEatenException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/SoftDrinksOutOfStockException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/ProductNotFoundException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/ChocolatesAllGone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/ChocolatesAllGone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/SaltyCracksAllEatenException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/SaltyCracksAllEatenException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/SoftDrinksOutOfStockException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/SoftDrinksOutOfStockException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spaza/Chocolates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaza/Chocolates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spaza/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaza/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spaza/SaltySnakes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaza/SaltySnakes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spaza/SoftDrinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaza/SoftDrinks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spaza/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaza/VendingMachine.java" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +40,9 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -89,6 +93,17 @@
       <updated>1570019697828</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="423" y="65" width="576" height="663" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1570283979273">
