@@ -6,7 +6,7 @@ import exceptions.SaltyCracksAllEatenException;
 import exceptions.ChocolatesAllGone;
 
 public class VendingMachine {
-    public  int countStock = 0;
+    public  int countStock;
     public  int softDrinks = 0;
     public  int saltySnakes = 0;
     public  int chocolates = 0;
@@ -98,5 +98,5 @@ public class VendingMachine {
      return chocolates;
     }
 
-    }
+}
 
