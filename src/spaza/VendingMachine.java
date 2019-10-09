@@ -32,6 +32,7 @@ public class VendingMachine {
 
     public void buy(Product product) throws ProductNotFoundException {
        if (product instanceof SoftDrinks){
+
                if (softDrinks <= 0){
                    throw new SoftDrinksOutOfStockException(product);
                }
@@ -61,7 +62,6 @@ public class VendingMachine {
            else{
                chocolates --;
                countStock --;
-
            }
        }
 

@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fea71cc-4717-452d-89c8-aa3d58d3e724" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/maxivending/Chocolates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maxivending/MaxiVendingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maxivending/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maxivending/SaltySnackes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AboutException/exceptions/ChocolatesAllGone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AboutException/exceptions/ChocolatesAllGone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AboutException/exceptions/SaltyCracksAllEatenException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AboutException/exceptions/SaltyCracksAllEatenException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AboutException/exceptions/SoftDrinksOutOfStockException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AboutException/exceptions/SoftDrinksOutOfStockException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AboutException/spaza/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AboutException/spaza/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AboutException/spaza/SaltySnakes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AboutException/spaza/SaltySnakes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AboutException/spaza/SoftDrinks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AboutException/spaza/SoftDrinks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AboutException/spaza/VendingMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AboutException/spaza/VendingMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/ChocolatesAllGone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/ChocolatesAllGone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/SaltyCracksAllEatenException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/SaltyCracksAllEatenException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/SoftDrinksOutOfStockException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/SoftDrinksOutOfStockException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaza/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaza/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaza/SaltySnakes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaza/SaltySnakes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spaza/SoftDrinks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaza/SoftDrinks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spaza/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spaza/VendingMachine.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -37,7 +55,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="maxivending" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="maxivending" />
       <recent name="spaza" />
     </key>
   </component>
@@ -53,13 +75,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MaxiVendingMachine">
+    <configuration name="MaxiVendingMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="maxivending.MaxiVendingMachine" />
+      <module name="AboutException" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="maxivending.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VendingMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spaza.VendingMachine" />
       <module name="AboutException" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spaza.*" />
+          <option name="PATTERN" value="maxivending.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,6 +104,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxiVendingMachine" />
         <item itemvalue="Application.VendingMachine" />
       </list>
     </recent_temporary>
@@ -91,7 +127,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

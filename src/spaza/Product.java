@@ -1,7 +1,8 @@
 package spaza;
 
-public class Product {
-    Product(){
+public class Product extends maxivending.Product {
+
+    public Product() {
 
     }
 }

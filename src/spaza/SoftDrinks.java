@@ -2,7 +2,7 @@ package spaza;
 
 public class SoftDrinks extends Product {
 
-     SoftDrinks(){
+     public SoftDrinks(){
 
     }
 }

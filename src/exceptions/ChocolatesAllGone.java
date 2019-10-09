@@ -7,4 +7,9 @@ public class ChocolatesAllGone extends ProductNotFoundException {
 
     }
 
+    public ChocolatesAllGone(maxivending.Product product) {
+    }
+
+//    public ChocolatesAllGone(maxivending.Product product) {
+//    }
 }

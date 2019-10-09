@@ -6,4 +6,6 @@ public class SaltyCracksAllEatenException extends ProductNotFoundException{
 
     }
 
+    public SaltyCracksAllEatenException(maxivending.Product product) {
+    }
 }
