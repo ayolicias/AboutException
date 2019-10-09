@@ -15,14 +15,14 @@ public class MaxiVendingMachine extends VendingMachine {
 
     public static void main(String[] args){
 
-        spaza.Product snakes = new SoftDrinks();
+        spaza.Product snakes = new SaltySnakes();
         VendingMachine vendingMachine = new VendingMachine();
         try{
             vendingMachine.addStock(snakes,5);
             vendingMachine.buy(snakes);
 
         }
-        catch (SoftDrinksOutOfStockException e){
+        catch (SaltyCracksAllEatenException e){
             System.out.println("drinks not found");
 
         } catch (ProductNotFoundException e) {

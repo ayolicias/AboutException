@@ -7,6 +7,10 @@ public class SoftDrinksOutOfStockException extends ProductNotFoundException {
 
     }
 
-    public SoftDrinksOutOfStockException(maxivending.Product product) {
+//    public SoftDrinksOutOfStockException(maxivending.Product product) {
+//    }
+
+    public SoftDrinksOutOfStockException() {
+
     }
 }
