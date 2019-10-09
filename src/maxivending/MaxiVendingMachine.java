@@ -8,18 +8,18 @@ import spaza.*;
 import spaza.Chocolates;
 
 public class MaxiVendingMachine extends VendingMachine {
-    //    public  int countStock;
+    public  int countStock;
     public int softDrinks = 0;
     public int saltySnakes = 0;
     public int chocolates = 0;
 
     public static void main(String[] args){
 
-        spaza.Product drinks = new SoftDrinks();
+        spaza.Product snakes = new SoftDrinks();
         VendingMachine vendingMachine = new VendingMachine();
         try{
-            vendingMachine.addStock(drinks,2);
-            vendingMachine.buy(drinks);
+            vendingMachine.addStock(snakes,5);
+            vendingMachine.buy(snakes);
 
         }
         catch (SoftDrinksOutOfStockException e){
