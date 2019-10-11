@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fea71cc-4717-452d-89c8-aa3d58d3e724" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JUnitSpark/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JUnitSpark/JUnitSpark.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JUnitSpark/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JUnitSpark/readme.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/JUnitSpark/src/test/java/maxivendings/MaxiVendingMachineTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AboutException.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AboutException.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AboutException/exceptions/SoftDrinksOutOfStockException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AboutException/exceptions/SoftDrinksOutOfStockException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AboutException/maxivending/MaxiVendingMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AboutException/maxivending/MaxiVendingMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AboutException/JUnitSpark/src/test/java/maxivendings/MaxiVendingMachineTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AboutException/JUnitSpark/src/test/java/maxivendings/MaxiVendingMachineTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JUnitSpark/src/main/java/letscode/CodeThis.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JUnitSpark/src/main/java/letscode/LetsCodeException.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JUnitSpark/src/test/java/letscode/CodeThisTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/SoftDrinksOutOfStockException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/SoftDrinksOutOfStockException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maxivending/MaxiVendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maxivending/MaxiVendingMachine.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +44,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AboutLoops" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -86,24 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.MaxiVendingMachineTest.shouldThrowException">
-    <configuration name="CodeThisTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AboutException" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JUnitSpark.src.test.java.maxivendings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="JUnitSpark.src.test.java.letscode" />
-      <option name="MAIN_CLASS_NAME" value="JUnitSpark.src.test.java.letscode.CodeThisTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.MaxiVendingMachineTest">
     <configuration name="MaxiVendingMachineTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AboutException" />
       <extension name="coverage">
@@ -175,13 +149,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaxiVendingMachineTest.shouldThrowVendingException" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AboutException" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JUnitSpark.src.test.java.maxivendings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JUnitSpark.src.test.java.maxivendings" />
+      <option name="MAIN_CLASS_NAME" value="JUnitSpark.src.test.java.maxivendings.MaxiVendingMachineTest" />
+      <option name="METHOD_NAME" value="shouldThrowVendingException" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MaxiVendingMachineTest.shouldThrowException" />
         <item itemvalue="TestNG.MaxiVendingMachineTest" />
+        <item itemvalue="TestNG.MaxiVendingMachineTest.shouldThrowVendingException" />
+        <item itemvalue="TestNG.MaxiVendingMachineTest.shouldThrowException" />
         <item itemvalue="TestNG.MaxiVendingMachineTest.ShouldCountProductBought" />
         <item itemvalue="TestNG.MaxiVendingMachineTest.shouldGetNames" />
-        <item itemvalue="TestNG.CodeThisTest" />
       </list>
     </recent_temporary>
   </component>
